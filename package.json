@@ -1,0 +1,13 @@
+{
+  "name": "parcel-plugin-ts-test",
+  "description": "Testing whether Parcel supports TypeScript plugins natively",
+  "source": "./src/index.html",
+  "scripts": {
+    "build": "atlaspack build --no-cache | tee"
+  },
+  "devDependencies": {
+    "@atlaspack/cli": "2.12.1-canary.3520",
+    "@atlaspack/plugin": "2.12.1-canary.3520"
+  },
+  "packageManager": "yarn@3.8.6+sha256.c1aaceda3fc48bd03adc661df752171f9299e01ff0d90a3c6b9507063d378c4a"
+}

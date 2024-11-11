@@ -1,0 +1,7 @@
+{
+  "extends": "@atlaspack/config-default",
+  "resolvers": [
+    "./plugins/resolver-test.ts",
+    "..."
+  ]
+}
